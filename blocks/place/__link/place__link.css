@@ -1,0 +1,31 @@
+.place__link {
+    color: white;
+    text-decoration: underline;
+    font-weight: 400;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:767px) {
+    .place__link {
+        line-height: 6.875vw;
+        font-size: 5.625vw;
+        margin: 3.75vw 5vw 0 5vw;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .place__link {
+        font-size: 2.083vw;
+        line-height: 3.395vw;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .place__link {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

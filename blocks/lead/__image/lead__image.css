@@ -1,0 +1,26 @@
+@media screen and (max-width:767px) {
+    .lead__image {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .lead__image {
+        width: 100%;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .lead__image {
+        margin-left: 4.687vw;
+        margin-right: 4.687vw;
+        width: 90.625vw;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .lead__image {
+        margin-left: calc((100vw - 984px) / 2);
+        margin-right: calc((100vw - 984px) / 2);
+        width: 984px;
+    }
+}

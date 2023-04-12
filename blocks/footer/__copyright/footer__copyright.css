@@ -1,0 +1,36 @@
+.footer__copyright {
+    font-weight: 400;
+}
+
+@media screen and (max-width:767px) {
+    .footer__copyright {
+        font-size: 4.375vw;
+        line-height: 4.375vw;
+        margin: 15vw auto 7.5vw 5vw;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .footer__copyright {
+        font-size: 1.822vw;
+        line-height: 2.083vw;
+        margin: 11.718vw 3.125vw 3.125vw 8.984vw;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .footer__copyright {
+        font-size: 1.367vw;
+        line-height: 1.562vw;
+        margin: 9.179vw 4.687vw 2.343vw 27.050vw;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer__copyright {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 94px; 
+        margin-left: 533px;
+    }
+}

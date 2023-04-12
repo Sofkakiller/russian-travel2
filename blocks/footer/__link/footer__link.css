@@ -1,0 +1,41 @@
+.footer__link {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:767px) {
+    .footer__link {
+        font-size: 7.5vw;
+        line-height: 7.5vw;
+        margin-left: 5vw;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .footer__link {
+        font-size: 2.083vw;
+        line-height: 2.343vw;
+        margin: 11.458vw 2.343vw 3.125vw 0;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .footer__link {
+        font-size: 1.562vw;
+        line-height: 1.757vw;
+        margin: 8.984vw 1.757vw 2.343vw 0;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .footer__link {
+        font-size: 16px;
+        line-height: 18px;
+        margin: 92px 18px 24px 0;
+    }
+}

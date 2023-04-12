@@ -1,0 +1,27 @@
+@media screen and (max-width:767px) {
+    .place__image {
+        width: 100%;
+        margin: 10vw 0 10vw 0;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .place__image {
+        width: 44.27vw;
+        margin: 6.25vw 3.645vw 22.656vw 3.125vw;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .place__image {
+        width: 42.968vw;
+        margin: 4.687vw 3.125vw 7.812vw 4.687vw;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .place__image {
+        width: 460px; 
+        margin-left: calc((100vw - 984px) / 2);
+    }
+}

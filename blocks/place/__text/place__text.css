@@ -1,0 +1,15 @@
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .place__text {
+        gap: 3.255vw;
+        margin-top: 6.25vw;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    .place__text {
+        display: flex;
+        gap: 4.687vw;
+        margin-top: 4.687vw;
+        flex-direction: column;
+    }
+}

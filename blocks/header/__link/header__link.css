@@ -1,0 +1,8 @@
+@media screen and (max-width:767px) {
+    .header__link {
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+    }
+}
+
